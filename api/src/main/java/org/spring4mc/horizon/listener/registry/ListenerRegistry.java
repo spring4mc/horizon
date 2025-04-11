@@ -1,6 +1,6 @@
 package org.spring4mc.horizon.listener.registry;
 
-import org.slf4j.helpers.CheckReturnValue;
+import org.jetbrains.annotations.CheckReturnValue;
 import org.spring4mc.horizon.EventPublisher;
 import org.spring4mc.horizon.listener.EventListener;
 
