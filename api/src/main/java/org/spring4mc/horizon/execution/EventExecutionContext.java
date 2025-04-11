@@ -5,6 +5,8 @@ import java.util.concurrent.CompletableFuture;
 public interface EventExecutionContext<EVENT> {
     EVENT event();
 
+    void cancel(EventCancelReason reason);
+
     Object await() throws InterruptedException;
 
     boolean isComplete();
